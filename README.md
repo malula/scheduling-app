@@ -447,5 +447,3 @@ pnpm typegen          # Generate TypeScript types from Sanity schema
 
 
 **Happy coding! 🚀**
-
-# scheduling-app
