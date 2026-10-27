@@ -31,7 +31,7 @@ export default async function BookingsPage() {
         <div>
           <h1 className="text-2xl font-bold">Your Bookings</h1>
           <p className="mt-1 text-muted-foreground">
-            View and manage your upcoming meetings.
+            View and manage your upcoming meetings..
           </p>
         </div>
 
