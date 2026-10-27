@@ -6,12 +6,12 @@ export type PlanType = "free" | "starter" | "pro";
 
 export const PLAN_LIMITS = {
   free: {
-    maxConnectedCalendars: 1,
-    maxBookingsPerMonth: 2,
+    maxConnectedCalendars: 100,
+    maxBookingsPerMonth: 200,
   },
   starter: {
-    maxConnectedCalendars: 3,
-    maxBookingsPerMonth: 10,
+    maxConnectedCalendars: 300,
+    maxBookingsPerMonth: 1000,
   },
   pro: {
     maxConnectedCalendars: Infinity,
