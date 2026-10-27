@@ -1,7 +1,12 @@
-import React from 'react'
+// app/not-found.tsx
+import Link from 'next/link'
 
-export default function not-found() {
+export default function NotFound() {
   return (
-    <div>Page not-found</div>
+    <div style={{ textAlign: 'center', marginTop: '50px' }}>
+      <h2>Page Not Found</h2>
+      <p>Could not find the requested resource.</p>
+      <Link href="/">Return Home</Link>
+    </div>
   )
 }
